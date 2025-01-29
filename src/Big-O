@@ -1,0 +1,8 @@
+For the printInOrder method, the run time complexity would be O(n) because it has one for loop.
+The n value would be equal to the cart size since the for loop is created as such:
+for(int i = 0; i < cartSize; i++).
+
+For the emptyCartReverseOrder method, the run time complexity would also be O(n).
+It has one loop that will run n number of times where n is equal to the items in the cart.
+for(int i = cart.size()-1; i >= 0; i--)
+
